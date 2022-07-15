@@ -1,0 +1,79 @@
+body {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #a51417;
+  color: #f9faf8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sub-heading {
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 14px;
+}
+
+strong {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.title {
+  color: #3d3d3d;
+  font-size: 36px;
+}
+
+.why-subscribe {
+  background-color: #c8c8c8;
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.cta,
+.subscribe-cta {
+  background-color: #007360;
+}
+
+.cta {
+  color: #f9faf8;
+}
+
+.subscribe-header {
+  background-color: #a51417;
+}
+
+.subscribe-header,
+.subscribe-cta {
+  font-family: "Libre Baskerville", serif;
+  border-radius: 0.5em;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  padding: 8px 12px;
+}
+
+.subscribe-header:hover {
+  background-color: #f9faf8;
+  color: #a51417;
+  cursor: pointer;
+}
+.subscribe-cta:hover {
+  background-color: #f9faf8;
+  color: #007360;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #3d3d3d;
+  color: #f9faf8;
+  text-align: center;
+  padding: 24px 0px;
+}
