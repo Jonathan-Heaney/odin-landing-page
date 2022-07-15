@@ -1,16 +1,46 @@
 body {
   font-family: "Libre Baskerville", serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 24px;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  margin-top: 8px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+  align-items: center;
+}
+
+.main-header-left {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f5bd18;
+  margin: 0;
 }
 
 .sub-heading {
@@ -18,18 +48,20 @@ h1 {
   color: #f9faf8;
 }
 
-.logo {
-  font-size: 14px;
-  color: #f9faf8;
-}
-
-strong {
-  font-size: 28px;
-  font-weight: 900;
+.campus {
+  width: 600px;
+  min-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex: 0 1 auto;
+  margin: 48px;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
 
 .header-link {
@@ -40,6 +72,48 @@ ul {
 .title {
   color: #3d3d3d;
   font-size: 36px;
+  margin: 24px;
+  text-align: center;
+}
+
+.headshot {
+  width: 100%;
+  max-width: 250px;
+  min-width: 150px;
+  height: auto;
+  display: flex;
+  flex: 1 1 auto;
+  border-radius: 5%;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin: 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.more-info {
+  font-family: "Libre Baskerville", serif;
+  background-color: #f9faf8;
+  border-radius: 0.5em;
+  border: 2px solid #007360;
+  color: #007360;
+  padding: 8px 12px;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  margin: 16px;
 }
 
 .why-subscribe {
@@ -51,7 +125,7 @@ ul {
 
 .cta,
 .subscribe-cta {
-  background-color: #007360;
+  background-color: #a51417;
 }
 
 .cta {
@@ -78,7 +152,13 @@ ul {
 }
 .subscribe-cta:hover {
   background-color: #f9faf8;
-  color: #007360;
+  color: #a51417;
+  cursor: pointer;
+}
+
+.more-info:hover {
+  background-color: #007360;
+  color: #f9faf8;
   cursor: pointer;
 }
 
