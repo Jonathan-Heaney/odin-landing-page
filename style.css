@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-  width: 90px;
+  width: 6rem;
   height: auto;
   margin-top: 8px;
 }
@@ -72,7 +72,7 @@ h1 {
 .title {
   color: #3d3d3d;
   font-size: 36px;
-  margin: 24px;
+  margin: 3rem 1em 0.25em 1em;
   text-align: center;
 }
 
@@ -90,7 +90,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 2%;
-  margin: 32px;
+  margin: 2em 1em 3rem 1em;
 }
 
 .info {
@@ -131,7 +131,7 @@ h1 {
   text-align: center;
   list-style: none;
   padding: 0;
-  margin: 0 0 32px 0;
+  margin: 0 0 3rem 0;
 }
 
 .subscribe-info li {
@@ -152,7 +152,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 32px;
+  margin-top: 3rem;
   margin-bottom: 4px;
 }
 .reason {
@@ -166,13 +166,43 @@ h2 {
 
 .cta {
   color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 48px;
+  padding: 0;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 1rem 0 1rem 0;
+}
+
+.single-ticket {
+  margin: 0 0 1rem 0;
 }
 
 .subscribe-header {
   background-color: #2b2b2b;
+  font-family: "Libre Baskerville", serif;
+  border-radius: 0.5em;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  padding: 8px 12px;
 }
 
-.subscribe-header,
+.first-link {
+  display: inline-block;
+  width: 24%;
+}
+
 .subscribe-cta {
   font-family: "Libre Baskerville", serif;
   border-radius: 0.5em;
@@ -202,6 +232,6 @@ h2 {
   background-color: #3d3d3d;
   color: #f9faf8;
   text-align: center;
-  padding: 24px 0px;
+  padding: 28px 0px;
   font-size: 12px;
 }
