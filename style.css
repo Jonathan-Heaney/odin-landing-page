@@ -4,26 +4,37 @@ body {
 }
 
 .header {
-  background-color: #a51417;
-  color: #f9faf8;
+  background-color: #2b2b2b;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 900;
+  color: #f5bd18;
 }
 
 .sub-heading {
   font-size: 18px;
+  color: #f9faf8;
 }
 
 .logo {
   font-size: 14px;
+  color: #f9faf8;
 }
 
 strong {
   font-size: 28px;
   font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #f9faf8;
 }
 
 .title {
@@ -48,7 +59,7 @@ strong {
 }
 
 .subscribe-header {
-  background-color: #a51417;
+  background-color: #2b2b2b;
 }
 
 .subscribe-header,
@@ -62,7 +73,7 @@ strong {
 
 .subscribe-header:hover {
   background-color: #f9faf8;
-  color: #a51417;
+  color: #2b2b2b;
   cursor: pointer;
 }
 .subscribe-cta:hover {
