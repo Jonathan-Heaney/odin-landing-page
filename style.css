@@ -26,8 +26,8 @@ body {
 
 .main-header {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 48px;
+  justify-content: space-evenly;
+  margin: 0 0 48px 48px;
   align-items: center;
 }
 
@@ -58,7 +58,7 @@ h1 {
   margin: 48px;
 }
 
-ul {
+.links {
   list-style-type: none;
   display: flex;
   gap: 24px;
@@ -118,9 +118,45 @@ ul {
 
 .why-subscribe {
   background-color: #c8c8c8;
-  font-size: 24px;
-  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-info {
+  font-size: 18px;
   color: #1f2937;
+  width: 75%;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.subscribe-info li {
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+}
+
+.subscribe-info li::before {
+  content: "🎵 ";
+}
+
+.subscribe-info li:nth-child(2)::before {
+  content: "💰 ";
+}
+
+.subscribe-info li:nth-child(3)::before {
+  content: "🍿 ";
+}
+
+h2 {
+  margin-top: 32px;
+  margin-bottom: 4px;
+}
+.reason {
+  margin: 0.5rem;
 }
 
 .cta,
@@ -167,4 +203,5 @@ ul {
   color: #f9faf8;
   text-align: center;
   padding: 24px 0px;
+  font-size: 12px;
 }
